@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="cloud_technology.TestExecution">
+        <methods>
+          <include name="footer"/>
+          <include name="TC005"/>
+          <include name="TC002"/>
+          <include name="invalid_login"/>
+          <include name="sign_in"/>
+          <include name="exit"/>
+          <include name="TC003"/>
+          <include name="invalid_login2"/>
+          <include name="TC006"/>
+          <include name="TC001"/>
+          <include name="launch"/>
+          <include name="TC004"/>
+        </methods>
+      </class> <!-- cloud_technology.TestExecution -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
